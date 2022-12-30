@@ -4,7 +4,7 @@ import { useRouter } from 'next/router'
 import React, { useEffect } from 'react'
 import { useReducer } from 'react'
 import tesloApi from '../../api/tesloApi'
-import { AuthContext } from './authContext'
+import { AuthContext } from './AuthContext'
 import { authReducer } from './authReducer'
 
 const AUTH_INITIAL_STATE = {

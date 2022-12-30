@@ -5,7 +5,7 @@ import { useContext } from "react"
 import { UIContext } from "../../context/ui/UIContext"
 import { useRouter } from "next/router"
 import { useState } from "react"
-import { AuthContext } from "../../context/auth/authContext"
+import { AuthContext } from "../../context/auth/AuthContext"
 
 export const SideMenu = () => {
 

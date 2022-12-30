@@ -8,7 +8,7 @@ import { isEmail } from '../../utils/validations'
 import tesloApi from '../../api/tesloApi'
 import { ErrorOutline } from '@mui/icons-material'
 import { useContext } from 'react'
-import { AuthContext } from '../../context/auth/authContext'
+import { AuthContext } from '../../context/auth/AuthContext'
 import { useRouter } from 'next/router'
 import { useMemo } from 'react'
 

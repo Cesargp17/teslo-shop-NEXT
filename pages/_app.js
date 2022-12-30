@@ -1,7 +1,7 @@
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 import { CssBaseline, ThemeProvider } from '@mui/material'
 import { SWRConfig } from 'swr'
-import { AuthProvider } from '../context/auth/authProvider'
+import { AuthProvider } from '../context/auth/AuthProvider'
 import { CartProvider } from '../context/cart/CartProvider'
 import { UIProvider } from '../context/ui/UIProvider'
 import '../styles/globals.css'

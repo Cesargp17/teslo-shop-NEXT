@@ -9,7 +9,7 @@ import tesloApi from '../../api/tesloApi'
 import { ErrorOutline } from '@mui/icons-material'
 import { useState } from 'react'
 import { useContext } from 'react'
-import { AuthContext } from '../../context/auth/authContext'
+import { AuthContext } from '../../context/auth/AuthContext'
 import Router, { useRouter } from 'next/router'
 import { useMemo } from 'react'
 

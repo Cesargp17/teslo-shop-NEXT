@@ -10,7 +10,7 @@ export async function middleware(req) {
     try {
 
         const token = req.cookies.get('token');
-        if( !token ) return NextResponse.redirect(`http://localhost:3000/auth/login?p=${req.nextUrl.pathname}`);
+        if( !token ) return NextResponse.redirect(`${ process.env.HOST_NAME }auth/login?p=${req.nextUrl.pathname}`);
 
         const user = jwt_decode(token);
 
@@ -25,7 +25,7 @@ export async function middleware(req) {
  
     } catch (error) {
  
-        return NextResponse.redirect(`http://localhost:3000/auth/login?p=${req.nextUrl.pathname}`);
+        return NextResponse.redirect(`${ process.env.HOST_NAME }auth/login?p=${req.nextUrl.pathname}`);
     }
  
  
